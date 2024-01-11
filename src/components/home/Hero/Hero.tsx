@@ -1,7 +1,11 @@
+//siempre escribir los nombres de las clases en CamelCase
+import styles from "./Hero.module.sass";
+
 export const Hero = () => {
   return (
-    <section>
-      <h1>Hero</h1>
+    <section className={styles.Hero}>
+      <h1>Future World</h1>
+      <h2>Empowering Your Tomorrow, Today!</h2>
     </section>
   );
 };
